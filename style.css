@@ -72,42 +72,14 @@ line-height: 1.6;
 
 
 }
-.items{
-    background-color: #0e0e0e;
-    display: flex;
-    padding-top: 2%;
-    justify-content: space-around;
-    padding-bottom: 60px;
-}
-
-.items2{
-    background-color: #0e0e0e;
-    display: flex;
-    margin-top: 2%;
-    justify-content: flex-start; 
-    gap: 6%;   
-    padding-bottom: 60px;
 
 
-}
 
 p{
     color: aliceblue; 
     text-align: center;
 }
 
-.items3{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    margin-top: 2%;
-    justify-content: space-around;
-    padding-bottom: 60px;
-
-}
-
-.item1{
-    margin-left: 2.5%;
-}
 .andmore{
     padding-top: 10px;
     background-color: #ffffff;
@@ -142,6 +114,9 @@ p:not(.boxP){
 }
 .right-column {
     width: 48%; 
+
+
+
 }
 h2 {
     font-size: 34px;
@@ -182,4 +157,85 @@ h2 {
     font-size: 18px;
     font-weight: 600;
     text-decoration: none;
+}
+
+
+
+
+
+p {
+    color: aliceblue;
+    text-align: center;
+}
+
+
+
+
+
+.content-div{
+    display: flex;
+    height: 260vh;
+    justify-content: center;
+    align-items: center;
+}
+.grid-div{
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+width: 90%;
+}
+.element-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25vw;
+    height: 60vh;
+    color: white;
+}
+
+.grid-img{
+    width: 100%;
+}
+
+.bottom-div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height:200vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-div-section1{
+    height: 200vh;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-div{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+}
+.bottom-img-1{
+    box-shadow: 2px 2px 20px rgb(227, 227, 227);
+height: 40vh;
+    width: 30vw;
+}
+.bottom-img-2{
+   align-self: flex-end;
+   justify-content: center;
+    width: 25vw;
+    height: 40vh;
+    box-shadow: 2px 2px 20px rgb(227, 227, 227);
+}
+.text-div{
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
